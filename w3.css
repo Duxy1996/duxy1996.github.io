@@ -1,4 +1,8 @@
-﻿/* W3.CSS 3.00 Mar 2017 by Jan Egil and Borge Refsnes */
+﻿html {
+    font-family: 'Varela Round', sans-serif !important;
+}
+
+/* W3.CSS 3.00 Mar 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -120,7 +124,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-responsive{overflow-x:auto}
 .w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,.w3-cell-row:before,.w3-cell-row:after,
 .w3-topnav:after,.w3-topnav:before,.w3-clear:after,.w3-clear:before,.w3-btn-group:before,.w3-btn-group:after,.w3-btn-bar:before,.w3-btn-bar:after,.w3-bar:before,.w3-bar:after
-{content:"";display:table;clear:both}
+{content:"";display:table;clear:both }
 .w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
 .w3-col.s1{width:8.33333%}
 .w3-col.s2{width:16.66666%}
@@ -365,24 +369,17 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 	height: auto;	
 	text-align: top;
 	text-align: left;
-
-}
-.cell {
-  text-align: center;
-  display: inline-block;
-  width: 22em;
-  height: auto;
-  margin-top: 45px;
-}
-.cellTwo {  
-  margin-top: 45px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	padding-left: 45px;
+	padding-right: 45px;
+	font-family: 'Varela Round', sans-serif !important;
 }
 .myface {
 	width: 22em;
 	height: 22em;
 }
-.barra {
-  margin-bottom: 40px;
+.barra {  
   margin-left: 45px;
   margin-right: 45px;
   height: auto;
@@ -396,29 +393,105 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
   display: inline-block;
   text-align: right
 }
-
 .siz_hed {
 	font-size: 30;
+}
+.fclass {
+	font-family: 'Varela Round', sans-serif !important;
+	text-decoration:none;
+}
+.withecol {
+	background-color: #2196F3;
+    text-align: center;
+    width: auto;
+  	height: auto;
+}
+.cell {
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  margin-top: 45px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+#f1_container {
+  height: 20em;
+  perspective: 1000;
+}
+
+#f1_card {    
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+}
+
+.face {
+  border-radius:10px 10px 10px 10px;
+  position: absolute;
+  color: white;
+  padding: 10px;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.logotagBlack {
+	padding-bottom: 30px;
+	padding-top: 30px;
+	border-radius: 5px;
+    margin-top: 0px;
+    width: 40%;
+    height: auto;
+}
+
+.tagBackCol {
+	background: white;
+}
+
+.logotagBlackBack {
+	background: white;
+	border-radius: 5px;
+    margin-top: 20px;
+    width: 30%;
+    height: auto;
+}
+
+.centertop {
+	text-align: center;
+
 }
 
 @media (max-width: 1300px) {
   .barra2 {  
+  padding-right: 100px;
   margin-left: 45px;
   margin-right: 45px;  
   width: 100%;
-  height: 80%;
+  height: auto;
   text-align: center
   }
-  .fstsce {
-  	margin-left: 45px;
-  	margin-right: 45px;
+  .fstsce {  	
 	width: auto;
 	height: auto;	
-	text-align: top;
 	text-align: center;
 	}
-	.cellTwo {  
-  		margin-top: 45px;
+   .barra {  
+   		margin-left: 45px;
   		margin-right: 45px;
-	}
+  		margin-bottom: 45px;
+  		height: auto;
+  		display: inline-block;
+	}	
 }
