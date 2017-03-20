@@ -473,6 +473,27 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 
 }
 
+.social {
+  text-align: center;
+}
+
+.social-icon {  
+  width: 90px;
+  height: auto;
+  margin: 1em;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+
+.social-icon:hover {
+  -webkit-filter: hue-rotate(-16deg);
+  filter: hue-rotate(-16deg);
+  -webkit-filter: hue-rotate(-16deg);
+  -moz-transform: translate(0px, -5px);
+  -webkit-transform: translate(0px, -5px);
+  transform: translate(0px, -5px);
+}
+
 @media (max-width: 1300px) {
   .barra2 {  
   padding-right: 100px;
