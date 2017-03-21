@@ -536,4 +536,16 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
   		height: auto;
   		display: inline-block;
 	}	
+
+	#beauty {
+  	text-align: center;
+  	color: black;
+  	height: auto;
+  	background:url("arbol.jpg");
+  	background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+  	padding-top: 10em;
+  	padding-bottom: 10em;
+	}
 }
