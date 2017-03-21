@@ -445,6 +445,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
   padding: 10px;
   color: white;
   text-align: center;
+  backface-visibility: hidden;
 }
 
 .logotagBlack {
@@ -458,6 +459,26 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 
 .tagBackCol {
 	background: white;
+}
+
+.cc-card {
+  padding: 1em;
+  margin:0 auto;
+  background:white;
+  width: 40%;
+  height: auto;
+}
+
+#beauty {
+  text-align: center;
+  color: black;
+  height: 500px;
+  background:url("arbol.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 10em;
+  padding-bottom: 10em;
 }
 
 .logotagBlackBack {
