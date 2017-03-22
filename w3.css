@@ -370,8 +370,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 	text-align: left;
 	margin-top: 45px;
 	margin-bottom: 45px;
-	padding-left: 45px;
-	padding-right: 45px;
+	padding-top: 3em;
+  	padding-bottom: 3em;
 	font-family: 'Varela Round', sans-serif !important;
 }
 .myface {
@@ -404,6 +404,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     text-align: center;
     width: auto;
   	height: auto;
+  	padding-top: 3em;
+  	padding-bottom: 3em;
 }
 .cell {
   text-align: center;
@@ -458,6 +460,10 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 
 .tagBackCol {
 	background: white;
+}
+
+.tagBackColBack {
+	background: #2196F3;
 }
 
 .cc-card {
@@ -518,7 +524,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 	font-size: 40px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .barra2 {  
   padding-right: 100px;
   margin-left: 45px;
