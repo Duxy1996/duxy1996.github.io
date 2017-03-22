@@ -515,8 +515,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 }
 
 .mian_text {
-
-	font-size: 30px;
+	font-size: 40px;
 }
 
 @media (max-width: 1300px) {
