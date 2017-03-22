@@ -1,7 +1,6 @@
 ﻿html {
     font-family: 'Varela Round', sans-serif !important;
 }
-
 /* W3.CSS 3.00 Mar 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
@@ -31,7 +30,7 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 ::-webkit-input-placeholder{color:inherit;opacity:0.54}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 /* End extract */
-html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+html,body{font-family: 'Varela Round', sans-serif !important;font-size:15px;line-height:1.5}html{overflow-x:hidden}
 h1,h2,h3,h4,h5,h6,.w3-slim,.w3-wide{font-family:"Segoe UI",Arial,sans-serif}
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 .w3-serif{font-family:"Times New Roman",Times,serif}
@@ -473,7 +472,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
   text-align: center;
   color: black;
   height: 500px;
-  background:url("arbol.jpg");
+  background:url("assets/arbol.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -513,6 +512,11 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
   -moz-transform: translate(0px, -5px);
   -webkit-transform: translate(0px, -5px);
   transform: translate(0px, -5px);
+}
+
+.mian_text {
+
+	font-size: 30px;
 }
 
 @media (max-width: 1300px) {
