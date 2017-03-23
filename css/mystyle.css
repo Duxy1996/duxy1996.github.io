@@ -6,7 +6,7 @@
 	margin-top: 45px;
 	margin-bottom: 45px;
 	padding-top: 3em;
-  	padding-bottom: 3em;
+  padding-bottom: 3em;
 	font-family: 'Varela Round', sans-serif !important;
 }
 .myface {
@@ -88,9 +88,9 @@
 	padding-bottom: 30px;
 	padding-top: 30px;
 	border-radius: 5px;
-    margin-top: 0px;
-    width: 40%;
-    height: auto;
+  margin-top: 0px;
+  width: 40%;
+  height: auto;
 }
 
 .tagBackCol {
@@ -165,8 +165,8 @@ div {
 
 @media (max-width: 1400px) {
   .barra2 {  
-  margin-left: 45px;
-  margin-right: 45px;  
+  /*margin-left: 45px;
+  margin-right: 45px;*/
   width: 100%;
   height: auto;
   text-align: center
@@ -177,8 +177,8 @@ div {
 	text-align: center;
 	}
    .barra {  
-   		margin-left: 45px;
-  		margin-right: 45px;
+   		/*margin-left: 45px;
+  		margin-right: 45px;*/
   		margin-bottom: 45px;
   		height: auto;
   		display: inline-block;
