@@ -13,13 +13,13 @@
 	width: 22em;
 	height: 22em;
 }
-.barra {  
+.barra {    
   margin-left: 45px;
   margin-right: 45px;
   height: auto;
   display: inline-block;
 }
-.barra2 {
+.barra2 {  
   margin-left: 45px;
   margin-right: 45px;
   width: 60%;
@@ -36,11 +36,11 @@
 }
 .withecol {
 	background-color: #2196F3;
-    text-align: center;
-    width: auto;
-  	height: auto;
-  	padding-top: 3em;
-  	padding-bottom: 3em;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 .cell {
   text-align: center;
@@ -183,8 +183,7 @@ div {
   		height: auto;
   		display: inline-block;
 	}	
-
-	#beauty {
+	.beauty {
   	text-align: center;
   	color: black;
   	height: auto;
