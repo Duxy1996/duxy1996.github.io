@@ -109,6 +109,10 @@
   height: auto;
 }
 
+div {
+  box-sizing: border-box;
+  }
+
 .beauty {
   text-align: center;
   color: black;
