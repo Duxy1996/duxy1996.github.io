@@ -1,0 +1,194 @@
+﻿.fstsce {
+	width: auto;
+	height: auto;	
+	text-align: top;
+	text-align: left;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	padding-top: 3em;
+  	padding-bottom: 3em;
+	font-family: 'Varela Round', sans-serif !important;
+}
+.myface {
+	width: 22em;
+	height: 22em;
+}
+.barra {  
+  margin-left: 45px;
+  margin-right: 45px;
+  height: auto;
+  display: inline-block;
+}
+.barra2 {
+  margin-left: 45px;
+  margin-right: 45px;
+  width: 60%;
+  height: auto;
+  display: inline-block;
+  text-align: right
+}
+.siz_hed {
+	font-size: 30;
+}
+.fclass {
+	font-family: 'Varela Round', sans-serif !important;
+	text-decoration:none;
+}
+.withecol {
+	background-color: #2196F3;
+    text-align: center;
+    width: auto;
+  	height: auto;
+  	padding-top: 3em;
+  	padding-bottom: 3em;
+}
+.cell {
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  margin-top: 45px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+#f1_container {
+  height: 20em;
+  perspective: 1000;
+}
+
+#f1_card {    
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+}
+
+.face {
+  border-radius:10px 10px 10px 10px;
+  position: absolute;
+  color: white;
+  padding: 10px;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.logotagBlack {
+	padding-bottom: 30px;
+	padding-top: 30px;
+	border-radius: 5px;
+    margin-top: 0px;
+    width: 40%;
+    height: auto;
+}
+
+.tagBackCol {
+	background: white;
+}
+
+.tagBackColBack {
+	background: #2196F3;
+}
+
+.cc-card {
+  padding: 1em;
+  margin:0 auto;
+  background:white;
+  width: 40%;
+  height: auto;
+}
+
+.beauty {
+  text-align: center;
+  color: black;
+  height: 500px;
+  background: url("../assets/arbol.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.logotagBlackBack {
+	background: white;
+	border-radius: 5px;
+    margin-top: 20px;
+    width: 30%;
+    height: auto;
+}
+
+.centertop {
+	text-align: center;
+
+}
+
+.social {
+  text-align: center;
+}
+
+.social-icon {  
+  width: 90px;
+  height: auto;
+  margin: 1em;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+
+.social-icon:hover {
+  -webkit-filter: hue-rotate(-16deg);
+  filter: hue-rotate(-16deg);
+  -webkit-filter: hue-rotate(-16deg);
+  -moz-transform: translate(0px, -5px);
+  -webkit-transform: translate(0px, -5px);
+  transform: translate(0px, -5px);
+}
+
+.mian_text {
+	font-size: 40px;
+}
+
+@media (max-width: 1400px) {
+  .barra2 {  
+  padding-right: 100px;
+  margin-left: 45px;
+  margin-right: 45px;  
+  width: 100%;
+  height: auto;
+  text-align: center
+  }
+  .fstsce {  	
+	width: auto;
+	height: auto;	
+	text-align: center;
+	}
+   .barra {  
+   		margin-left: 45px;
+  		margin-right: 45px;
+  		margin-bottom: 45px;
+  		height: auto;
+  		display: inline-block;
+	}	
+
+	#beauty {
+  	text-align: center;
+  	color: black;
+  	height: auto;
+  	background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+  	padding-top: 10em;
+  	padding-bottom: 10em;
+	}
+}
