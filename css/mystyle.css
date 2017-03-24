@@ -73,6 +73,7 @@
   color: white;
   padding: 10px;
   backface-visibility: hidden !important; 
+  -webkit-backface-visibility: hidden !important;
 }
 
 .face.back {
@@ -83,6 +84,7 @@
   color: white;
   text-align: center;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden !important;
 }
 
 .logotagBlack {
