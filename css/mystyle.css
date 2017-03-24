@@ -169,6 +169,27 @@ text-align: center;
 	font-size: 100%;
 }
 
+.know {
+text-align: center;
+}
+
+.know-icon {  
+	width: 90px;
+	height: auto;
+	margin: 1em;
+	transition: 0.5s;
+	transition-timing-function: ease;
+}
+
+.know-icon:hover {
+	-webkit-filter: hue-rotate(+16deg);
+	filter: hue-rotate(+16deg);
+	-webkit-filter: hue-rotate(+16deg);
+	-moz-transform: translate(0px, -15px);
+	-webkit-transform: translate(0px, -15px);
+	transform: translate(0px, -15px);
+}
+
 @media (max-width: 1400px) {
 	.mobile {
 		font-size: 70%;
