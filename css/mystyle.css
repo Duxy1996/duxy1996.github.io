@@ -167,7 +167,7 @@ div {
   .barra2 {  
   /*margin-left: 45px;
   margin-right: 45px;*/
-  width: 100%;
+  width: 80%;
   height: auto;
   text-align: center
   }
@@ -176,6 +176,7 @@ div {
 	height: auto;	
 	text-align: center;
 	}
+
    .barra {  
    		/*margin-left: 45px;
   		margin-right: 45px;*/
@@ -183,6 +184,7 @@ div {
   		height: auto;
   		display: inline-block;
 	}	
+
 	.beauty {
   	text-align: center;
   	color: black;
