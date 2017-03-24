@@ -6,7 +6,7 @@
 	margin-top: 45px;
 	margin-bottom: 45px;
 	padding-top: 3em;
-  padding-bottom: 3em;
+  	padding-bottom: 3em;
 	font-family: 'Varela Round', sans-serif !important;
 }
 .myface {
@@ -14,10 +14,10 @@
 	height: 22em;
 }
 .barra {    
-  margin-left: 45px;
-  margin-right: 45px;
-  height: auto;
-  display: inline-block;
+	margin-left: 45px;
+	margin-right: 45px;
+	height: auto;
+	display: inline-block;
 }
 .barra2 {  
   margin-left: 45px;
@@ -91,9 +91,9 @@
 	padding-bottom: 30px;
 	padding-top: 30px;
 	border-radius: 5px;
-  margin-top: 0px;
-  width: 40%;
-  height: auto;
+  	margin-top: 0px;
+ 	 width: 40%;
+ 	 height: auto;
 }
 
 .tagBackCol {
@@ -166,7 +166,14 @@ div {
 	font-size: 40px;
 }
 
+.mobile {
+	font-size: 100%;
+}
+
 @media (max-width: 1400px) {
+   .mobile {
+	font-size: 70%;
+	}
   .barra2 {  
   /*margin-left: 45px;
   margin-right: 45px;*/
@@ -199,3 +206,9 @@ div {
   	padding-bottom: 10em;
 	}
 }
+
+@media (max-width: 800px) {
+	.mobile {
+	font-size: 50%;
+	}
+	}
