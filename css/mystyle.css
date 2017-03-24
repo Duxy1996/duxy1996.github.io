@@ -72,8 +72,9 @@
   position: absolute;
   color: white;
   padding: 10px;
-  backface-visibility: hidden;
+  backface-visibility: hidden !important; 
 }
+
 .face.back {
   display: block;
   transform: rotateY(180deg);
