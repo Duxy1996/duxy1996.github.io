@@ -105,11 +105,11 @@
 }
 
 .cc-card {
-  padding: 1em;
-  margin:0 auto;
+  padding: 6em;
+  margin: auto;
   background:white;
-  width: 40%;
-  height: auto;
+  width: 60%;
+  height: 100%;
 }
 
 div {
@@ -123,8 +123,8 @@ div {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	padding-top: 10em;
-	padding-bottom: 10em;
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
 
 .logotagBlackBack {
@@ -160,6 +160,28 @@ text-align: center;
 	-webkit-transform: translate(0px, -5px);
 	transform: translate(0px, -5px);
 }
+.know {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	height: 100%;
+}
+
+.know-icon {  
+	width: 120px;
+	height: auto;
+	margin: 1em;
+	transition: 0.5s;
+	transition-timing-function: ease;
+}
+.know-icon:hover {
+	-webkit-filter: hue-rotate(+16deg);
+	filter: hue-rotate(+16deg);
+	-webkit-filter: hue-rotate(+16deg);
+	-moz-transform: translate(0px, -15px);
+	-webkit-transform: translate(0px, -15px);
+	transform: translate(0px, -15px);
+}
 
 .mian_text {
 	font-size: 40px;
@@ -170,11 +192,16 @@ text-align: center;
 }
 
 @media (max-width: 1400px) {
+	.cc-card {
+		padding: 1em;
+	}
 	.mobile {
 		font-size: 70%;
 	}
 	.barra2 {  		
 		width: 90%;
+		margin-left: 0px;
+		margin-right: 0px;
 		height: auto;
 		text-align: center
 	}
@@ -189,21 +216,15 @@ text-align: center;
 		height: auto;
 		display: inline-block;
 	}	
-
 	.beauty {
-		text-align: center;
-		color: black;
 		height: auto;
-		background-size: cover;
-		background-position: center;
-		background-attachment: fixed;
-		padding-top: 10em;
-		padding-bottom: 10em;
 	}
+
+	
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 800px) {
 	.mobile {
-		font-size: 70%;
+		font-size: 50%;
 	}
 }
