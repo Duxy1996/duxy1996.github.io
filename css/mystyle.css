@@ -223,8 +223,8 @@ text-align: center;
 	}
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 800px) {
 	.mobile {
-		font-size: 70%;
+		font-size: 50%;
 	}
 }
