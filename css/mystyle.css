@@ -180,6 +180,24 @@ text-align: center;
 	transition: 0.5s;
 	transition-timing-function: ease;
 }
+.crop_color_one {
+	background-color: #203D52;
+}
+.crop_color_two {
+	background-color: #00689D;
+}
+.crop_color_three {
+	background-color: #DFBA69;
+}
+.round_borders {
+	border-radius:10px 10px 10px 10px;
+}
+.round_borders_top {
+	border-radius:10px 10px 0px 0px;
+}
+.round_borders_bottom {
+	border-radius:0px 0px 10px 10px;
+}
 
 .know-icon:hover {
 	-webkit-filter: hue-rotate(+16deg);
@@ -225,6 +243,6 @@ text-align: center;
 
 @media (max-width: 800px) {
 	.mobile {
-		font-size: 50%;
+		font-size: 60%;
 	}
 }

@@ -10,18 +10,12 @@
 		$(document).ready(function(){
 		  // Add smooth scrolling to all links
 		  $("a").on('click', function(event) {
-		    // Make sure this.hash has a value before overriding default behavior
 		    if (this.hash !== "") {
-		      // Prevent default anchor click behavior
 		      event.preventDefault();
-		      // Store hash
-		      var hash = this.hash;
-		      // Using jQuery's animate() method to add smooth page scroll
-		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      var hash = this.hash;		      
 		      $('html, body').animate({
 		        scrollTop: $(hash).offset().top
-		      }, 800, function(){		   
-		        // Add hash (#) to URL when done scrolling (default click behavior)
+		      }, 800, function(){		
 		        window.location.hash = hash;
 		      });
 		    } // End if
@@ -39,7 +33,7 @@
 	</header>
 	<section class="fstsce">
 		<div class="barra">
-			<div class="w3-card-12">
+			<div class="w3-card-12 round_borders">
 			  	<img src="assets/carlos_img.png" alt="Carlos Duran Roca" class="myface">
 			  	<div class="w3-container w3-center">
 			    	<p>Ingeniero Informático</p>
@@ -54,14 +48,14 @@
 	      		<a href="mailto://durancdr96@gmail.com"><img alt="Mail" src="assets/mail.png" class="social-icon"/></a>
 	      		<a href="https://www.thingiverse.com/Duxy1996"><img alt="Thingiverse" src="assets/thingiverse.png" class="social-icon"/></a>
 	    	</div>
-			<div class="w3-card-24">
-				<header class="w3-container w3-blue">
+			<div class="w3-card-24 round_borders_bottom">
+				<header class="w3-container w3-blue round_borders_top">
 	  				<h1 class="fclass">Carlos Durán Roca</h1>
 				</header>
 				<div class="w3-container">
 				  <p class="mian_text">"Quizás no cambie el mundo o quizás sí"</br></p>
 				</div>
-				<footer class="w3-container w3-blue">
+				<footer class="w3-container w3-blue round_borders_bottom">
 				  <h5>Estudiante-UPV</h5>
 				</footer>
 			</div>
