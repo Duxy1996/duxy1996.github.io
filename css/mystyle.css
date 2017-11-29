@@ -167,6 +167,7 @@ text-align: center;
 
 .mobile {
 	font-size: 100%;
+    height: 8em;
 }
 
 .know {
@@ -230,19 +231,27 @@ text-align: center;
 	}	
 
 	.beauty {
-		text-align: center;
-		color: black;
-		height: auto;
-		background-size: cover;
-		background-position: center;
-		background-attachment: fixed;
-		padding-top: 10em;
-		padding-bottom: 10em;
+		height: auto;	
 	}
+    .gogo {
+        color: transparent;
+        font-size: 1%;
+    }
 }
 
 @media (max-width: 800px) {
 	.mobile {
 		font-size: 60%;
-	}
+        height: 8em;
+	}    
+}
+
+@media (max-width: 600px) { 
+    .mobile {
+        font-size: 100%;
+    }     
+    .cell {
+       width: 80%;
+    }   
+    
 }
