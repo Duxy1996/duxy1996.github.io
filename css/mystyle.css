@@ -7,6 +7,7 @@
   margin-left: 45px;
   margin-right: 45px;  
   display: inline-block;
+  vertical-align: bottom;
 }
 
 .beauty {
@@ -27,9 +28,13 @@
   margin-right: 45px;  
   height: auto;
   display: inline-block;
-  text-align: right
+  text-align: right;
+  vertical-align: bottom;
 }
 
+.brown {
+  background: #FCFCFC;
+}
 .cc-card {
   padding: 1em;
   margin:0 auto;
@@ -47,6 +52,10 @@
 
 .centertop {
   text-align: center;
+}
+
+.dark-blue {
+  background-color: #274B99;
 }
 
 .face {
@@ -79,14 +88,6 @@
   background-color: #203D52;
 }
 
-.crop_color_two {
-  background-color: #00689D;
-}
-
-.crop_color_three {
-  background-color: #DFBA69;
-}
-
 .fstsce {
   width: auto;
   height: auto;  
@@ -99,7 +100,7 @@
 }
 
 .know {
-text-align: center;
+  text-align: center;
 }
 
 .know-icon {  
@@ -136,8 +137,8 @@ text-align: center;
   margin-top: 20px;  
 }
 
-.mian_text {
-  font-size: 40px;
+.main_text {
+  font-size: 30px;
 }
 
 .mobile {
@@ -148,6 +149,7 @@ text-align: center;
 .myface {
   width: 22em;
   height: 22em;
+  border-radius: 10px;
 }
 
 .round_borders {
@@ -159,7 +161,7 @@ text-align: center;
 }
 
 .round_borders_bottom {
-  border-radius:0px 0px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .siz_hed {
@@ -171,7 +173,7 @@ text-align: center;
 }
 
 .social-icon {  
-  width: 90px;
+  width: 110px;
   height: auto;
   margin: 1em;
   transition: 0.5s;
@@ -182,9 +184,9 @@ text-align: center;
   -webkit-filter: hue-rotate(-16deg);
   filter: hue-rotate(-16deg);
   -webkit-filter: hue-rotate(-16deg);
-  -moz-transform: translate(0px, -5px);
-  -webkit-transform: translate(0px, -5px);
-  transform: translate(0px, -5px);
+  -moz-transform: translate(0px, -30px);
+  -webkit-transform: translate(0px, -30px);
+  transform: translate(0px, -30px);
 }
 
 .tagBackCol {
@@ -192,11 +194,14 @@ text-align: center;
 }
 
 .tagBackColBack {
-  background: #2196F3;
+  background: #274B99;
 }
 
+.test {
+  background: #FFD166;
+}
 .withecol {
-  background-color: #2196F3;
+  background-color: #274B99;
   text-align: center;
   width: auto;
   height: auto;
