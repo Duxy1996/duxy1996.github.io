@@ -35,6 +35,7 @@ h1{
   background-attachment: fixed;
   padding-top: 10em;
   padding-bottom: 10em;
+  margin-top: -50px;
 }
 
 .body_card {
@@ -211,6 +212,12 @@ h1{
 .test {
   background: #FFD166;
 }
+
+.fourth_section
+{
+  text-align: center;
+}
+
 .second_section {
   background-color: #274B99;
   text-align: center;
@@ -262,10 +269,6 @@ h1{
     text-align: center
   }
 
-  .third_section {
-    height: auto;
-  }
-
   .go_label {
     color: transparent;
     font-size: 1%;
@@ -291,4 +294,20 @@ h1{
     .cell {
       width: 80%;
     }
+}
+
+.box {
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  -o-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+}
+
+.box > .wrapper {
+  -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  -ms-transform: skewY(3deg);
+  -o-transform: skewY(3deg);
+  transform: skewY(3deg);
 }
