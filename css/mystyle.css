@@ -2,18 +2,18 @@
   box-sizing: border-box;
 }
 
-.barra {  
-  height: auto;  
+.header_card {
+  height: auto;
   margin-left: 45px;
-  margin-right: 45px;  
+  margin-right: 45px;
   display: inline-block;
   vertical-align: bottom;
 }
 
-.beauty {
+.third_section {
   height: 500px;
   text-align: center;
-  color: black;  
+  color: black;
   background: url("../assets/arbol.jpg");
   background-size: cover;
   background-position: center;
@@ -22,10 +22,10 @@
   padding-bottom: 10em;
 }
 
-.barra2 {  
+.body_card {
   width: 60%;
   margin-left: 45px;
-  margin-right: 45px;  
+  margin-right: 45px;
   height: auto;
   display: inline-block;
   text-align: right;
@@ -46,8 +46,8 @@
 .cell {
   width: 25%;
   text-align: center;
-  display: inline-block;  
-  margin: 25px 25px 25px 20px;  
+  display: inline-block;
+  margin: 25px 25px 25px 20px;
 }
 
 .centertop {
@@ -63,7 +63,7 @@
   position: absolute;
   color: #FFFFFF;
   padding: 10px;
-  backface-visibility: hidden !important; 
+  backface-visibility: hidden !important;
   -webkit-backface-visibility: hidden !important;
 }
 
@@ -76,7 +76,7 @@
   color: #FFFFFF;
   text-align: center;
   backface-visibility: hidden;
-  -webkit-backface-visibility: hidden !important;  
+  -webkit-backface-visibility: hidden !important;
 }
 
 .fclass {
@@ -88,11 +88,10 @@
   background-color: #203D52;
 }
 
-.fstsce {
+.first_section {
   width: auto;
-  height: auto;  
-  text-align: top;
-  text-align: left;
+  height: auto;
+  text-align: center;
   margin-top: 45px;
   margin-bottom: 45px;
   padding-top: 3em;
@@ -103,7 +102,7 @@
   text-align: center;
 }
 
-.know-icon {  
+.know-icon {
   width: 130px;
   height: auto;
   margin: 1em;
@@ -134,7 +133,7 @@
   height: auto;
   background: #FFFFFF;
   border-radius: 5px;
-  margin-top: 20px;  
+  margin-top: 20px;
 }
 
 .main_text {
@@ -172,7 +171,7 @@
   text-align: center;
 }
 
-.social-icon {  
+.social-icon {
   width: 110px;
   height: auto;
   margin: 1em;
@@ -200,7 +199,7 @@
 .test {
   background: #FFD166;
 }
-.withecol {
+.second_section {
   background-color: #274B99;
   text-align: center;
   width: auto;
@@ -209,7 +208,12 @@
   padding-bottom: 3em;
 }
 
-#f1_card {    
+.white_text
+{
+  color: #FFFFFF
+}
+
+#f1_card {
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
@@ -227,29 +231,23 @@
 
 @media (max-width: 1400px) {
 
-  .barra {  
+  .header_card {
     margin-bottom: 45px;
     height: auto;
     display: inline-block;
-  }  
-  
-  .barra2 {      
+  }
+
+  .body_card {
     width: 90%;
     height: auto;
     text-align: center
   }
 
-  .beauty {
-    height: auto;  
+  .third_section {
+    height: auto;
   }
 
-  .fstsce {    
-    width: auto;
-    height: auto;  
-    text-align: center;
-  } 
-  
-  .gogo {
+  .go_label {
     color: transparent;
     font-size: 1%;
   }
@@ -257,23 +255,21 @@
   .mobile {
     height: 100%;
     font-size: 70%;
-  } 
-
+  }
 }
 
 @media (max-width: 800px) {
   .mobile {
     font-size: 60%;
-        height: 8em;
-  }    
+    height: 8em;
+  }
 }
 
-@media (max-width: 600px) { 
+@media (max-width: 600px) {
     .mobile {
-        font-size: 100%;
-    }     
+      font-size: 100%;
+    }
     .cell {
-       width: 80%;
-    }   
-    
+      width: 80%;
+    }
 }
