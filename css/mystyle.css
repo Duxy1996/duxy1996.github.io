@@ -313,3 +313,25 @@ h1{
   -o-transform: skewY(3deg);
   transform: skewY(3deg);
 }
+
+.spain {
+  background-image: url("../assets/spain.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}
+
+.english {
+  background-image: url("../assets/england.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}
+
+.clearTag {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.0);
+}
