@@ -291,12 +291,12 @@ h1{
 }
 
 @media (max-width: 600px) {
-    .mobile {
-      font-size: 100%;
-    }
-    .cell {
-      width: 80%;
-    }
+  .mobile {
+    font-size: 100%;
+  }
+  .cell {
+    width: 80%;
+  }
 }
 
 .box {
@@ -339,8 +339,6 @@ h1{
 }
 
 button {
-
-border: 0;
-padding: 0;
-
+  border: 0;
+  padding: 0;
 }
