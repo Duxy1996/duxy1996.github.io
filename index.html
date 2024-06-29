@@ -16,7 +16,7 @@
     <a class="siz_hed"  href="#Contaco">Contacto</a>
     <a class="siz_hed"  href="#Projects">Proyectos</a>
     <a class="siz_hed"  href="#Habilidades">Habilidades</a>
-    <a class="siz_hed"  href="#Predator">Predator</a>
+    <a class="siz_hed"  onclick="enablePredator()">Predator</a>
     <button class="clearTag" onclick="translateLabels()">
       <div id="flag" class="spain"></div>
     </button>
@@ -137,11 +137,11 @@
         </div>
     </div>
   </section>
-  <section class="fourth_section">
+  <section id="predatorTitleSection" class="fourth_section predator">
     <h1 class="white_text" id="Predator">Predator</h1>
   </section>
-  <section class="fifth_section">
-    <embed src="https://duxy1996.github.io/Predator" style="width:100%; height: 500px;">
+  <section id="predatorViewSection" class="fifth_section predator">
+    <embed id="predatorEngine" src="https://duxy1996.github.io/Predator" class="predatorViewDisabled">
   </section>
   <section class="w3-container test centertop">
     </br>

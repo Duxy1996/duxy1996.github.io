@@ -26,3 +26,11 @@ function translateLabels()
     document.getElementById("flag").classList.remove('english');
   }
 }
+
+function enablePredator()
+{
+  document.getElementById('predatorViewSection').classList.toggle('predator');
+  document.getElementById('predatorEngine').classList.toggle('predatorViewDisabled');
+  document.getElementById('predatorEngine').classList.toggle('predatorViewEnabled');
+  document.getElementById('predatorTitleSection').classList.toggle('predator');
+}
