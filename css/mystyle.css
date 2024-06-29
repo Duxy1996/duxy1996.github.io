@@ -217,7 +217,7 @@ button {
 }
 
 .tagBackColBack {
-  background: #274B99;
+  background: #ffffff17;
 }
 
 .test {
@@ -345,6 +345,7 @@ button {
   margin: 0;
   background-color: rgba(255, 255, 255, 0.0);
   float: right;
+  padding-right: 10px;
 }
 
 .predator {
